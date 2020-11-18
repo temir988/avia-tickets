@@ -1,0 +1,32 @@
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+.tabs__button {
+  flex-grow: 1;
+  padding: 18px 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  background: #ffffff;
+  border: 1px solid #dfe5ec;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.tabs__button:hover,
+.tabs__button_active {
+  background-color: #2196f3;
+  border-color: #2196f3;
+  color: #ffffff;
+}
+
+.tabs__button:first-of-type {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.tabs__button:last-of-type {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
