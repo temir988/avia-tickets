@@ -11,3 +11,57 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+
+.filter__item {
+  margin-bottom: 20px;
+}
+
+.filter__item:last-child {
+  margin-bottom: 0;
+}
+
+.checkbox__input {
+  display: none;
+}
+.checkbox__input:checked + .checkbox__label:after {
+  opacity: 1;
+}
+
+.checkbox__label {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.checkbox__label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #9abbce;
+  border-radius: 2px;
+}
+
+.checkbox__label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--primary);
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
