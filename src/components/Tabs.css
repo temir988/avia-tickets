@@ -10,15 +10,15 @@
   font-weight: 600;
   background: #ffffff;
   border: 1px solid #dfe5ec;
-  color: #4a4a4a;
+  color: var(--main-text-color);
   text-transform: uppercase;
   transition: all 0.2s;
   cursor: pointer;
 }
 .tabs__button:hover,
 .tabs__button_active {
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: var(--primary);
+  border-color: var(--primary);
   color: #ffffff;
 }
 

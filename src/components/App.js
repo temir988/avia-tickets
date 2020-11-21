@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
-import AsideFilter from "./components/AsideFilter";
-import Tabs from "./components/Tabs";
-import Ticket from "./components/Ticket";
+import logo from "../images/logo.svg";
+import AsideFilter from "./AsideFilter";
+import Tabs from "./Tabs";
+import Ticket from "./Ticket";
 
 function App() {
   return (

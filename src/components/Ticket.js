@@ -1,12 +1,15 @@
 import React from "react";
 import "./Ticket.css";
+import companyLogo from "../images/company-logo.svg";
 
 export default function Ticket() {
   return (
     <div className="ticket">
       <div className="ticket__header">
         <div className="ticket__price">13 400</div>
-        <div className="ticket__company"></div>
+        <div className="ticket__company">
+          <img src={companyLogo} alt="Company Logo" />
+        </div>
       </div>
       <div className="ticket__body">
         <div className="ticket__flight">
