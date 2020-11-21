@@ -12,19 +12,29 @@ export default function Ticket() {
         </div>
       </div>
       <div className="ticket__body">
-        <div className="ticket__flight">
-          <div className="ticket__flight-item">
-            <div className="ticket__flight-label">MOW – HKT</div>
-            <div className="ticket__flight-value">10:45 – 08:00</div>
-          </div>
-          <div className="ticket__flight-item">
-            <div className="ticket__flight-label">MOW – HKT</div>
-            <div className="ticket__flight-value">10:45 – 08:00</div>
-          </div>
-          <div className="ticket__flight-item">
-            <div className="ticket__flight-label">MOW – HKT</div>
-            <div className="ticket__flight-value">10:45 – 08:00</div>
-          </div>
+        <div className="ticket__flight-item">
+          <div className="ticket__flight-label">MOW – HKT</div>
+          <div className="ticket__flight-value">10:45 – 08:00</div>
+        </div>
+        <div className="ticket__flight-item">
+          <div className="ticket__flight-label">MOW – HKT</div>
+          <div className="ticket__flight-value">10:45 – 08:00</div>
+        </div>
+        <div className="ticket__flight-item">
+          <div className="ticket__flight-label">MOW – HKT</div>
+          <div className="ticket__flight-value">10:45 – 08:00</div>
+        </div>
+        <div className="ticket__flight-item">
+          <div className="ticket__flight-label">MOW – HKT</div>
+          <div className="ticket__flight-value">10:45 – 08:00</div>
+        </div>
+        <div className="ticket__flight-item">
+          <div className="ticket__flight-label">MOW – HKT</div>
+          <div className="ticket__flight-value">10:45 – 08:00</div>
+        </div>
+        <div className="ticket__flight-item">
+          <div className="ticket__flight-label">MOW – HKT</div>
+          <div className="ticket__flight-value">10:45 – 08:00</div>
         </div>
       </div>
     </div>
