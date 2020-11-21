@@ -2,13 +2,17 @@ import React from "react";
 import "./Ticket.css";
 import companyLogo from "../images/company-logo.svg";
 
-export default function Ticket() {
+export default function Ticket({ ticket }) {
   return (
     <div className="ticket">
       <div className="ticket__header">
-        <div className="ticket__price">13 400</div>
+        <div className="ticket__price">{ticket.price} P</div>
         <div className="ticket__company">
-          <img src={companyLogo} alt="Company Logo" />
+          <img
+            src={`https://pics.avs.io/99/36/${ticket.carrier}.png`}
+            srcSet={`https://pics.avs.io/198/72/${ticket.carrier}.png 2x`}
+            alt="Company Logo"
+          />
         </div>
       </div>
       <div className="ticket__body">

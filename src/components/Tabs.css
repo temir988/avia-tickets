@@ -15,11 +15,19 @@
   transition: all 0.2s;
   cursor: pointer;
 }
-.tabs__button:hover,
+
+.tabs__button:hover {
+  background: #f0eeee;
+}
+
 .tabs__button_active {
   background-color: var(--primary);
   border-color: var(--primary);
   color: #ffffff;
+}
+
+.tabs__button_active:hover {
+  background-color: var(--primary);
 }
 
 .tabs__button:first-of-type {
